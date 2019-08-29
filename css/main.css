@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	margin: 0;
+}
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	display: flex;
+	margin: -10px 0px 10px 0px;
+	padding: 10px 0px 20px 0px;
+	text-align: center;
+	background-color: #66e3ff;
+	font-size: 18px;
+}
+
+header img {
+	margin-top: 15px;
+	height: 30px;
+	max-width: 100%
+}
+
+.logo-nav {
+	width: 10%;
+}
+
+.logo-nav a {
+	display: block;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.logo-nav h1 {
+	margin: 10px;
+	color: white;
+}
+
+.searchbar{
+	margin: 20px;
+	font-size: 15px;
+}
+
+.searchbar input[type="text"] {
+    padding: 10px;
+    width: 50%;
+}
+
+.header-products {
+	display: block;
+	padding-top: 15px;
+	width: 80%;
+}
+
+
+.cart-icon {
+	width: 10%;
+	padding-top: 15px;
+	font-size: 40px;
+}
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.col-25 {
+	width: 25%;
+}
+
+.col-33 {
+	width: 33%;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.col-66 {
+	width: 66%;
+}
+
+.col-75 {
+	width: 75%;
+}
+
+/* ----------------------------------------
+Categories
+------------------------------------------- */
+.product-image img {
+	padding: 10px;
+}
+
+.product-image img:hover {
+	opacity: 0.7;
+}
+
+
+.categories {
+	text-align: center;
+	margin: 20px;
+}
+
+.product-image {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 25px 25px 25px;
+	padding: 25px 50px 50px 50px;
+}
+
+
+
+/* ----------------------------------------
+Cart
+------------------------------------------- */
+.cart {
+	display: flex;
+}
+
+.cart-products {
+	display: block;
+	text-align: left;
+	margin: 0px 0px 25px 25px;
+}
+
+.cart-products img {
+	display: block;
+	padding: 20px;
+}
+
+.cart h2 {
+	margin-top: 0px;
+}
+
+.cart aside {
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.cart-summary {
+	border: 2px solid black;
+}
+
+.order-sum {
+	text-align: left;
+}
+
+.order-sum h3 {
+	padding-left: 40px;
+}
+
+.cart button {
+	margin: 10px;
+}
